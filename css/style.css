@@ -1,0 +1,190 @@
+/*General*/
+
+*{
+	font-family: "Nunito";
+	font-size: 20px;
+}
+@media (max-width: 480px){
+	*{
+		font-size: 15px;
+	}
+}
+@media (max-width: 320px){
+	*{
+		font-size: 12px;
+	}
+}
+
+	/*Opacidad en imágenes de fondo*/
+
+.opacidad{	/*negra*/
+	background: rgba(0,0,0,0.5);
+	background-size: 100%;
+}
+.opacidad-blanco{
+	
+	background: rgba(255,255,255,0.5);
+	background-size: 100%;
+}
+.titulo{
+	font-size: 70px;
+}
+@media (max-width: 768px){
+	.titulo{
+		font-size: 50px;
+	}
+}
+@media (max-width: 480px){
+	.titulo{
+		font-size: 35px;
+	}
+}
+@media (max-width: 320px){
+	.titulo{
+		font-size: 30px;
+	}
+}
+.subtitulo{	
+	font-size: 35px;
+}
+@media (max-width: 768px){
+	.subtitulo{
+		font-size: 25px;
+	}
+}
+@media (max-width: 480px){
+	.subtitulo{
+		font-size: 20px;
+	}
+}
+@media (max-width: 320px){
+	.subtitulo{
+		font-size: 15px;
+	}
+}
+.titulo-sm{
+	font-size: 20px;
+	font-weight: bold;
+}
+.peque{
+	font-size: 17px!important;
+}
+
+/*HEADER y MENÚ*/ 
+/*Tuve que repetir una serie de clases que ya estaban en el bootstrap pero no hacía cambios*/
+header{
+	background-image: url("../img/compu3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text-menu{
+	font-size: 20px;
+	color: #0dc0c0;
+}
+nav{
+	border: none!important;
+	background:rgba(0,0,0,0.5)!important;
+	width: 100%;
+}
+nav a{
+	color: white!important;
+}
+
+/*Sección SOBRE MÍ*/
+.ico-hobbie{
+	font-size: 40px!important;
+	margin: 3%;
+	color: #0dc0c0;
+}
+@media (max-width: 768px){
+	.ico-hobbie{
+		font-size: 30px!important;
+	margin: 3%;
+	color: #0dc0c0;
+	}
+}
+@media (max-width: 480px){
+	.ico-hobbie{
+		font-size: 25px!important;
+	margin: 3%;
+	color: #0dc0c0;
+	}
+}
+.zoomit{
+	-webkit-transition:-webkit-transform 0.5s ease-out;
+	-moz-transition:-moz-transform 0.5s ease-out;
+	-o-transition:-o-transform 0.5s ease-out;
+	-ms-transition:-ms-transform 0.5s ease-out;
+	transition:transform 0.5s ease-out;
+}
+.zoomit:hover{
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5)
+}
+
+/*Sección FRASE*/
+.bg-frase{
+	background-image: url("../img/compu5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-position: 20% 70%;
+	color: white;
+}
+
+/*Sección CONTACTO*/
+a.link-contacto span, a.link-contacto{
+	color: white;
+	text-decoration: none;
+
+}
+a.link-contacto span:hover{
+	color:#0dc0c0;
+}
+.bg-contacto{
+	background-image: url("../img/compu.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ico{
+	margin: 2%;
+	color: #0dc0c0;
+}
+.ico-red{
+	font-size: 40px!important;
+	margin: 3%;
+	color: white;
+}
+@media (max-width: 768px){
+	.ico-red{
+		font-size: 30px!important;
+		margin: 3%;
+		color: white;
+	}
+}
+@media (max-width: 480px){
+	.ico-red{
+		font-size: 25px!important;
+		margin: 3%;
+		color: white;
+	}
+}
+.ico-red:hover{
+	color:#0dc0c0;
+}
+/*SLIDER*/
+.img-modal{
+	width: 100%;
+}
+
+/*Sección FOOTER*/
+footer{
+	background-color: black!important;
+}
+.footer{
+	color: white;
+	font-size: 12px!important;
+}
